@@ -1,3 +1,5 @@
+export const runtime = 'edge'; // This is required for Cloudflare
+
 import { NextResponse } from 'next/server';
 
 export async function GET() {
